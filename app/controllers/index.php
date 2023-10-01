@@ -1,6 +1,6 @@
 <?php
 
-require_once('app/model/');
+require_once('app/model/index.php');
 
 class ModelControler{
     Private $Model;
@@ -11,6 +11,6 @@ class ModelControler{
 
     //Mostar
     static function Index(){
-        require_once('app/views/home/');
+        require_once('app/views/home/index.php');
     }
 }
