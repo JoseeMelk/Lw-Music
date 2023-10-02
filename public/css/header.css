@@ -23,7 +23,7 @@
 
 /*Contenedor del logo*/
 .logo{
-    width: 14%;
+    width: 15%;
     padding-left: 2%;
     display: flex;
     align-items: center;
@@ -54,6 +54,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    text-align: center;
 }
 
 .option a{
@@ -63,10 +64,8 @@
     text-decoration: none;
 }
 
-
-/*Contenedor de los botones para navegar*/
 .buttons{
-    width: 28%;
+    width: 30%;
     padding-right: 1%;
     text-align: right;
     display: flex;
@@ -95,69 +94,8 @@
     border: 1px solid var(--default-white, #FFF);
 }
 
-.options, .buttons {
-    display: flex;
-}
-
 /* Media query para dispositivos móviles */
 @media screen and (max-width: 768px) {
-
-    .logo{
-        width: 60%;
-        padding-left: 5%;
-    }
-
-    .text-logo{
-        font-size: calc(var(--textNav-size) + 8px);
-        padding-left: 2%;
-    }
-
-    .active-hidden {
-        visibility: visible;
-        margin: 5%;
-        font-size: 24px;
-        font-weight: bold;
-        cursor: pointer;
-    }
-
-    .options, .buttons {
-        display: none; /* Ocultar opciones y botones por defecto */
-    }
-
-
-    /*
-    #options{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        display: none;
-        flex-direction: column;
-        z-index: 1;
-    }
-
-    #options.open{
-        display: flex;
-    }
-    */
-
-    #options{
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .option a{
-        color: black;
-    }
-
-    /*Botones*/
-    .buttons{
-        flex-direction: column;
-        position: absolute;
-        padding-bottom: 2%;
-        left: 0;
-    }
 
 }
 
