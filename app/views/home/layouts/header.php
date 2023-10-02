@@ -18,14 +18,14 @@
              </div> 
              <div class="options">
                 <ul id="options" class="mobile">
-                    <li class="option "><a href="#">Home</a></li>
+                    <li class="option "><a href="index.php?direction=Index">Home</a></li>
                     <li class="option"><a href="#">Music - Lyrics</a></li>
                     <li class="option"><a href="#">About us</a></li>
                 </ul>
             </div>
             <div class="buttons">
-                    <button class="btn-account">Account</button>
-                    <button class="btn-play">Play</button>
+                    <a class="btn-account">Account</a>
+                    <a class="btn-play" href="index.php?direction=Game">Play</a>
             </div>
         </nav>
     </header>

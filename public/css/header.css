@@ -73,6 +73,10 @@
 }
 
 .btn-account{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #8A2BE2;
     font-weight: 500;
     font-size: calc(var(--textNav-size) - calc(.5vh + .5vw));
@@ -84,11 +88,14 @@
 }
 
 .btn-play{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #FFFFFF;
     font-weight: 500;
     font-size: calc(var(--textNav-size) - calc(.5vh + .5vw));
     width: 40%;
-    height: 8vh;
     background-color: #8A2BE2;
     border-radius: 6px;
     border: 1px solid var(--default-white, #FFF);

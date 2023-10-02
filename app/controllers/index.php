@@ -13,4 +13,8 @@ class ModelControler{
     static function Index(){
         require_once('app/views/home/index.php');
     }
+
+    static function Game(){
+        require_once('app/views/home/game/index.php');
+    }
 }
